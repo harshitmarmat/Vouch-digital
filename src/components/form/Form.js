@@ -1,4 +1,4 @@
-import { Input } from 'antd';
+import { Checkbox, Input } from 'antd';
 import { useRef } from 'react';
 import ButtonUI from '../UI/ButtonUI';
 import classes from './Form.module.css'
@@ -50,9 +50,9 @@ const Form = () => {
                 <ButtonUI type='submit' className={classes['startBtn']} title='Login'/>
             </form>
             <div className={classes.lowerCnt}>
-                <p>
-                    Remember Password
-                </p>
+                <Checkbox className={classes.check}>
+                        Remember Password
+                </Checkbox>
                 <p>
                     Forget Password?
                 </p>
