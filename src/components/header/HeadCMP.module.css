@@ -1,0 +1,59 @@
+.header{
+    min-width: 95%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header h2 {
+    font-weight: 800;
+    color: #092947;
+}
+
+.header h2 span{
+    color: rgb(223, 73, 35);
+}
+
+.startBtn{
+    border-color: #092947;
+    background-color: #092947;
+    min-width: 10rem;
+    font-weight: 500;
+}
+
+.loginBtn{
+    border-color: rgba(251, 133, 0,1);
+    background-color: rgba(251, 133, 0,1);
+    min-width: 10rem;
+    font-weight: 500;
+}
+
+.startBtn:hover{
+    background-color: #092947d2;
+    border-color: #092947d2;
+}
+
+.loginBtn:hover{
+    background-color: rgba(251, 134, 0, 0.753);
+    border-color: rgba(251, 134, 0, 0.753);
+}
+
+.btn{
+    display: block;
+}
+
+@media screen and (max-width: 850px){
+    .startBtn{
+        width: 8rem;
+    }
+    .loginBtn{
+        width:8rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .btn{
+        display: none;
+    }
+}

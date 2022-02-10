@@ -1,8 +1,8 @@
-import Layout from "./components/layout/Layout";
+import Structure from "./components/layout/Layout";
 
 const App = () => {
     return (
-        <Structue/>
+        <Structure/>
     )
 }
 

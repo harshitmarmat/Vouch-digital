@@ -1,0 +1,57 @@
+.container{
+    max-width: 60%;
+    height: auto;
+    padding: 1rem;
+}
+
+.titleBox{
+    text-align: center;
+}
+
+.titleBox h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: -0.5rem;
+    color: #092947;
+}
+
+.titleBox p{
+    font-size: 0.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.input{
+    margin-bottom: 1rem;
+    color: #092947;
+}
+
+.startBtn{
+    border-color: #092947;
+    background-color: #092947;
+    font-weight: 500;
+    width:100%;
+}
+
+.startBtn:hover{
+    background-color: #092947d2;
+    border-color: #092947d2;
+}
+
+.lowerCnt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lowerCnt p{
+    font-size: 0.7rem;
+    margin-bottom: 1.3rem;
+    cursor: pointer;
+}
+
+.lowerCnt p:hover{
+    color: #092947;
+}
+
+p{
+    color: #092947d2;
+}
